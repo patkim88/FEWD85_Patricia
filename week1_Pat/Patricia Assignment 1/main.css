@@ -27,9 +27,16 @@ nav {
   letter-spacing: 1.5px;
 }
 
-.list {
+.like-list {
   width: 300px;
   margin: 0 auto;
+  float: right;
+}
+
+.dislike-list {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
 }
 
 p {
@@ -45,6 +52,7 @@ ul {
 }
 
 footer {
-  font-family: comic sans;
   text-align: center;
+  font-family: Comic Sans MS;
+  font-size: 10px;
 }
