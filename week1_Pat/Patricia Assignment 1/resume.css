@@ -29,36 +29,11 @@ nav {
   padding: 0px;
 }
 
-a { color: #b9c1c6;
-
+section {
+	text-align: left;
 }
 
-.like-list {
-  width: 50%;
-  margin: 0 auto;
-  float: right;
-}
-
-.dislike-list {
-  width: 50%;
-  margin: 0 auto;
-  float: left;
-}
-
-p {
-  text-align: center;
-}
-
-aside {
-  font-size: 12px;
-}
-
-ul {
-  text-align: left;
-}
-
-footer {
-  text-align: center;
-  font-family: Comic Sans MS;
-  font-size: 10px;
-}
+.header {
+	font-variant: small-caps;
+	font: 25px em;
+	letter-spacing: 2px;
