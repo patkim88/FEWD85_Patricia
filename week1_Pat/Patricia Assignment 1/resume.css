@@ -1,7 +1,6 @@
 body {
   background-color: #80d4ff;
   border: ridge #006699;
-  border-color: #006699;
   padding: 20px;
   width: 60%;
   font-family: Courier New;
@@ -9,18 +8,27 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+h1 {
+  font-size: 40px;  
+  font-variant: small-caps;
+  line-height: 5px;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 0px;
+}
   
 nav {
   background-color: #005580;
   color: #ffffff;
   font-weight: bold;
   letter-spacing: 1.5px;
-  padding: 0px;
 }
 
 a { 
   color: #b9c1c6;
-
 }
 
 section {
@@ -46,4 +54,5 @@ section {
 
 .dates {
 	float: right;
+	font-size: 20px;
 }
