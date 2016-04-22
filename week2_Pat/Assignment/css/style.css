@@ -3,7 +3,8 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    margin: 0 100px;
+    width: 80%;
+    margin: auto;
 }
 
 .offset {
@@ -12,10 +13,9 @@ body {
 
 .container {
     background-size: contain;
-    background: url(../images/header_bg.jpg) no-repeat center top fixed;
+    background: url(../images/header_bg.jpg) no-repeat center top;
     height: 500px;
     clear: both;
-    margin: 0 auto;
 }
 
 .container h1 {
@@ -24,17 +24,20 @@ body {
     font-weight: bolder;
 }
 
-.container button {
+.get {
     width: 100px;
-    display: block;
-    margin: 0 auto 100px;
-    padding: 10px 0;
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 40px;
+    width: auto;
+    background-color: #f9e42e;
+    border: 5px;
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .benefits {
     background-color: #f0efef;
-    width: 80%;
-    position: relative;
 }
 
 .benefits h1 {
