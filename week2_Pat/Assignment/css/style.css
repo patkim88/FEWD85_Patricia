@@ -133,5 +133,25 @@ blockquote {
     background-size: contain;
 }
 
+footer {
+    background-color: #121212;
+}
+
+footer h1{
+    font-weight: 800;
+    color: #f9e42e;
+    font-size: 24px;
+    text-align: center;
+    padding: 20 0 20 0;
+}
+
+.copyright {
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    color: #f0efef;
+    padding: 30 0 0 0;
+}
+
 
 
