@@ -62,6 +62,7 @@ h2 {
     font-size: 13px;
     padding-top: 10px; 
     color: #606161;
+    margin-right: 300px;
 }
 
 ul {
@@ -70,6 +71,7 @@ ul {
   font-size: 13px;
   font-weight: 300;
   color: #606161;
+  margin-right: 300px;
 }
 
 .testimonial {
