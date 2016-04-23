@@ -1,0 +1,156 @@
+body {
+    color: #000;
+    line-height: 1.4;
+    font-family: Open Sans, sans-serif;
+    background-color: black;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.offset {
+    padding: 25px 75px;
+}
+
+.container {
+    background-size: cover;
+    background: url(../images/header_bg.jpg) no-repeat center top;
+    height: 500px;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #f0efef;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f0efef;
+    text-align: center;
+    margin: 80 0 50 0;
+}
+
+.get {
+    display: block; 
+    margin: 0 auto;
+    padding: 10 40;
+    width: auto;
+    background-color: #f9e42e;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+}
+
+.benefits {
+    background-color: #f0efef;
+}
+
+.benefits h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #033048;
+}
+
+.benefits p {
+    font-weight: 300;
+    font-size: 13px;
+    padding-top: 10px; 
+    color: #606161;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 20 50;
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.testimonial {
+    background: url(../images/testimonial_bg.jpg) no-repeat center;
+    color: #f0efef;
+    text-align: center;
+    padding: 50 0;
+}
+
+blockquote {
+    font-weight: 300
+    font-size: 18px;
+    font-style: italic;
+    width: 50%;
+    margin: auto;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-weight: 600;
+    width: 50%;
+    margin: auto;
+}
+
+.sign-up {
+    background-color: #f9e42e;
+    padding: 20 0;
+}
+
+.sign-up button{
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 60px;
+    background-color: #033048;
+    border-radius: 5px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+    color: #f0efef;    
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    width: 43px;
+    height: 33px;
+}
+
+.social #twitter {
+    background: url("../images/twitter.png") no-repeat center;
+    background-size: contain;
+}
+
+.social #facebook {
+    background: url("../images/facebook.png") no-repeat center;
+    background-size: contain;
+}
+
+footer {
+    background-color: #121212;
+}
+
+footer h1{
+    font-weight: 800;
+    color: #f9e42e;
+    font-size: 24px;
+    text-align: center;
+    padding: 20 0 20 0;
+}
+
+.copyright {
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    color: #f0efef;
+    padding: 30 0 0 0;
+}
+
+
+
