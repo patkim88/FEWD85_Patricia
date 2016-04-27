@@ -1,80 +1,112 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+    font-family: Open Sans, sans-serif;
+    line-height: 1.4;
+    background-color: #f0efef;
 }
 
+.blue {
+    color: #033048;
+}
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+.grey {
+    color: #606161;
+}
 
-/* Center the container */
 #container {
-  width: 960px;
-  margin: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.offset {
+    padding-left: 75px;
+}
+
+.inset {
+    padding-right: 75px;
+}
+
+.right {
+    text-align: right;
 }
 
 header {
-
+    background-color: #033048;
+    height: 70px;
+    padding: 10px 0 10px 0;
 }
 
-footer {
-
+header h1 {
+    float: left;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+header li {
+    float: right;
+    display: inline;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px 20px 20px 0;
+}
 
+nav a {
+    color: #f9e42e;
+    text-decoration: none;
+}
 
+.wrapper {
+    overflow: hidden;
+    padding: 25px 0 0 0;
+}
 
+.blog {
+}
 
+section {
+    width: 700px;
+    float: left;
+    display: inline;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.article {
+    color: #606161;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sidebar {
+    width: 240px;
+    float: right;
+}
+
+.sidebar-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.sidebar a {
+    color: #606161;
+    text-decoration: none;
+}
+
+.categories {
+    padding-bottom: 25px;
+/** room between categories and about**/
+    font-size: 24px;
+}
+
+.about {
+    font-weight: 200;
+    font-size: 22px;
+}
