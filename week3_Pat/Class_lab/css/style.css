@@ -82,6 +82,13 @@ section {
     font-weight: 400;
 }
 
+.article:first-letter{
+    font-size: 52px;
+    float: left;
+    line-height: 40px;
+    padding-top: 8px;
+}
+
 .sidebar {
     width: 240px;
     float: right;
@@ -139,16 +146,6 @@ section {
     display: inline-block;
     width: 43px;
     height: 33px;
-}
-
-.social #twitter {
-    background: url("../images/twitter.png") no-repeat center;
-    background-size: contain;
-}
-
-.social #facebook {
-    background: url("../images/facebook.png") no-repeat center;
-    background-size: contain;
 }
 
 footer {
