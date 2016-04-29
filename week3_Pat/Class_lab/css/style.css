@@ -47,8 +47,8 @@ header h1 {
 header li {
     float: right;
     display: inline;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     padding: 20px 20px 20px 0;
 }
 
@@ -62,18 +62,19 @@ nav a {
     padding: 25px 0 0 0;
 }
 
-.blog {
-}
-
 section {
-    width: 700px;
+    width: 65%;
     float: left;
-    display: inline;
 }
 
 .title {
     font-size: 40px;
     font-weight: 600;
+}
+
+.title img {
+    display: block;
+    
 }
 
 .article {
@@ -90,7 +91,7 @@ section {
 }
 
 .sidebar {
-    width: 240px;
+    width: 20%;
     float: right;
 }
 
