@@ -47,7 +47,6 @@ Developer @GA in NYC
 
 body {
   color: #043049;
-  font-size: 26px;
   line-height: 1.4;
   color: #606161;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -100,15 +99,16 @@ header nav ul li a {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  width: 60%;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
 }
 #sidebar {
-  width: 240px;
-  display: inline-block;
-  vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20%;
 }
 .post {
   border-bottom: 1px solid #043049;
@@ -222,6 +222,24 @@ footer p {
 }
 .hide {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  header .logo {
+    font-size: 2em;
+  }
+
+header nav ul li {
+    font-size: 1em;
+    display: inline-block;
+    margin: 0 0 0 20px;
+
+  }  
+
 }
 
 /******************************************
