@@ -6,7 +6,7 @@
 //     });
 // });
 
-// $(function() {
+// 
 //     $('.readless').click(function(){
 //         $('.readmore').show();
 //         $('.readless').hide();

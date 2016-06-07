@@ -1,0 +1,40 @@
+/*html {
+  background-color: #e6f8b2;
+}
+*/
+body {
+    background-color: #e6f8b2;
+}
+
+.indent {
+    padding: 0 10%;
+}
+
+.container {
+    background-image: url("../images/chickenbgmain.png");
+    background-size: 100%;
+    background-color: #e6f8b2;
+    background-repeat: no-repeat;
+}
+
+.body {
+    padding: 30% 20% 40% 20%;
+}
+
+nav {
+    background-color: #709176;
+    padding: 10% 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    align: center
+}
+
+footer {
+    background-image: url("../images/grassheader.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
