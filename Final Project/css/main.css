@@ -2,6 +2,11 @@
   background-color: #e6f8b2;
 }
 */
+
+.clearfix {
+    overflow: auto;
+}
+
 body {
     font-family: Coming Soon;
     background-color: #e6f8b2;
@@ -39,25 +44,36 @@ body {
 .body p {
     line-height: 1.5;
     text-align: center;
-    padding: 200px 0 200px 0;
-    display: inline-block;
+/*    padding: 200px 0 200px 0;
+    display: inline-block;*/
+    padding-top: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 nav {
     background-color: #709176;
     padding: 10% 0 0 0;
+        background-image: url("../images/grassheader.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    clear: left;
 }
 
 nav ul li {
     display: inline-block;
     align: center;
+    float: right;
 }
 
 footer {
-    background-image: url("../images/grassheader.png");
+/*    background-image: url("../images/grassheader.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
     height: 200px;
 }
 
