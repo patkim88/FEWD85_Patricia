@@ -3,11 +3,12 @@
 }
 */
 body {
+    font-family: Coming Soon;
     background-color: #e6f8b2;
 }
 
 .indent {
-    padding: 0 10%;
+    padding: 0 50px 0 50px;
 }
 
 .container {
@@ -18,7 +19,28 @@ body {
 }
 
 .body {
-    padding: 30% 20% 40% 20%;
+    height: 500px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 200px; 
+/*    background-image: url("../images/chickenbgmain.png");
+    background-size: cover;
+    background-color: #e6f8b2;
+    background-repeat: no-repeat;*/
+}
+
+/*.container img {
+    width: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+.body p {
+    line-height: 1.5;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    display: inline-block;
 }
 
 nav {
@@ -28,13 +50,31 @@ nav {
 
 nav ul li {
     display: inline-block;
-    align: center
+    align: center;
 }
 
 footer {
     background-image: url("../images/grassheader.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+/*.social {
+    background-image: url("../images/grassheader.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: center bottom;
+    height: 90px;
+}
+*/
+
+footer .social ul {
+    position: static;
+    bottom: 0; 
+    left: 0.5em; 
+    width: 400px; 
+    padding: 10px;
 }
 
