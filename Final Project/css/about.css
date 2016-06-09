@@ -24,30 +24,66 @@ body {
 }
 
 .body {
-    height: 500px;
-    width: 75%;
-/*    background-image: url("../images/chickenbgmain.png");
-    background-size: cover;
-    background-color: #e6f8b2;
-    background-repeat: no-repeat;*/
+    height: 400px;
 }
-
-/*.container img {
-    width: 75%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}*/
 
 .body p {
     line-height: 1.5;
     text-align: center;
     position: relative;
-    padding-top: 450px;
+    margin-top: 200px;
+    padding-bottom: 100px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-size: 16pt;
     color: #709176;
+    width: 75%;
+    min-width: 500px;
+}
+
+.testimonials {
+    text-align: center;
+    position: relative;
+    margin-top: -50px;
+}
+
+.testimonials h2 {
+    font-size: 18pt;
+}
+
+.fa.fa-angle-double-right {
+    font-size: 20pt;
+}
+
+.fa.fa-angle-double-down {
+    font-size: 20pt;
+    display: none;
+}
+
+.customerone {
+    float: left;
+    padding-left: 10%;
+    font-size: 14pt;
+}
+
+.customertwo {
+    float: right;
+    padding-right: 10%;
+    font-size: 14pt;
+}
+
+
+.body h1 {
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:20px;
+}
+
+.testimonials p .first .second{
+    font-style: italic;
+    font-size: 16pt;
+    text-align: center;
 }
 
 header {
@@ -80,20 +116,8 @@ nav ul li a {
 }
 
 footer {
-/*    background-image: url("../images/grassheader.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;*/
+    padding-top: 50px;
 }
-
-/*.social {
-    background-image: url("../images/grassheader.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    height: 90px;
-}
-*/
 
 footer .social ul {
     position: static;
@@ -107,4 +131,8 @@ footer .social ul {
 
 .border {
     border: 2px solid #709176;
+}
+
+.hide {
+    display: none;
 }
