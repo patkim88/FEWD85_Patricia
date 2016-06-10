@@ -1,0 +1,120 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.indent {
+    padding: 0 50px 0 50px;
+}
+
+.float {
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    font-family: Coming Soon;
+    background-color: #e6f8b2;
+}
+
+header {
+    background-color: #709176;
+    padding: 50px 0 0 0;
+    background-image: url("../images/grassheader.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    background-color: #704e2e;
+    height: 50px;
+    display: block;
+    margin-top: 80px;
+}
+
+nav ul li {
+    float: left;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #cde77f;
+    margin: 20px;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+.container {
+    background-size: 100%;
+    background-color: #e6f8b2;
+}
+
+.body {
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding-right: 2%;
+    margin-top: 25px;
+}
+
+aside {
+
+}
+
+aside ul {
+
+}
+
+aside ul li {
+    margin-bottom: 10%; 
+    font-size: 20pt;
+}
+
+.menu {
+    margin-top: 25px;
+    font-size: 14pt;
+}
+
+table {
+    width: 50%;
+}
+
+table tr {
+    height: 60px;
+}
+
+.social ul li .fa {
+    font-size: 30pt;
+    padding-bottom: 5px;
+}
+
+.social ul li .fa:first-child {
+    padding-top: 2%;
+}
+
+footer {
+    display: inline-block;
+}
+
