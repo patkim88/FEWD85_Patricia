@@ -1,11 +1,23 @@
-/*html {
-  background-color: #e6f8b2;
+.overflow {
+    overflow: hidden;
 }
-*/
 
 .clearfix {
-    overflow: auto;
+    clear: both;
 }
+
+.hide {
+    display: none;
+}
+
+.emphasize {
+    font-family: Kalam;
+    font-size: 20pt;
+    color: #709176;
+    text-decoration: underline;
+}
+
+/*STYLES BEGIN********************************/
 
 body {
     font-family: Coming Soon;
@@ -14,91 +26,6 @@ body {
 
 .indent {
     padding: 0 50px 0 50px;
-}
-
-.container {
-    background-size: 100%;
-    background-color: #e6f8b2;
-}
-
-.body {
-    height: 400px;
-
-
-}
-
-.body p {
-    line-height: 1.5;
-    text-align: center;
-    position: relative;
-    margin-top: 200px;
-    padding-bottom: 100px;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 16pt;
-    color: #79745c;
-    width: 75%;
-    min-width: 500px;
-/*    text-shadow: 1px 1px 1px #000; */
-}
-
-.testimonials {
-    text-align: center;
-    position: relative;
-    margin-top: -50px;
-    height: 250px;
-}
-
-.testimonials h2 {
-    font-size: 18pt;
-}
-
-.fa.fa-angle-double-right {
-    font-size: 20pt;
-}
-
-.fa.fa-angle-double-down {
-    font-size: 20pt;
-    display: none;
-
-}
-
-.fa.fa-angle-double-right:hover {
-    color: #709176;
-    font-weight: 900;
-}
-
-.fa.fa-angle-double-down:hover {
-    color: #709176;
-    font-weight: 900;
-}
-
-.customerone {
-    float: left;
-    padding-left: 10%;
-    font-size: 14pt;
-    width: 35%;
-}
-
-.customertwo {
-    float: right;
-    padding-right: 10%;
-    font-size: 14pt;
-    width: 35%;
-}
-
-
-.body h1 {
-    font-size: 20pt;
-    font-weight: bolder;
-    text-align: center;
-    padding-top:20px;
-}
-
-.testimonials p #first #second {
-    font-style: italic;
-    font-size: 16pt;
-    text-align: center;
 }
 
 header {
@@ -127,27 +54,113 @@ nav ul li {
 nav ul li a {
     color: #cde77f;
     margin: 20px;
+    font-size: 15pt;
     text-decoration: none;
+}
+
+.container {
+    background-size: 100%;
+    background-color: #e6f8b2;
+}
+
+.body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.body h1 {
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.body p {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16pt;
+    color: #709176;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.body h2 {
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.testimonials {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 2%;
+    height: 250px;
+    display: inline;
+}
+
+.testimonial-wrapper {
+    height: 150px;
+    margin-top: 25px;
+}
+
+.testimonials h2 {
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fa.fa-angle-double-right {
+    font-size: 30pt;
+}
+
+.fa.fa-angle-double-down {
+    font-size: 30pt;
+    display: none;
+}
+
+.fa.fa-angle-double-right:hover {
+    color: #709176;
+    font-weight: 900;
+}
+
+.fa.fa-angle-double-down:hover {
+    color: #709176;
+    font-weight: 900;
+}
+
+.customerone {
+    float: left;
+    padding-left: 10%;
+    font-size: 14pt;
+    width: 35%;
+}
+
+.customertwo {
+    float: right;
+    padding-right: 10%;
+    font-size: 14pt;
+    width: 35%;
+}
+
+.customerone #first, .customertwo #second {
+    font-style: italic;
+    font-size: 16pt;
+    text-align: center;
 }
 
 footer {
     padding-top: 50px;
 }
 
-footer .social ul {
-    position: static;
-    bottom: 0; 
-    left: 0.5em; 
-    width: 400px; 
-    padding: 10px;
+.social {
+    display: inline-block;
+
 }
 
-/*jquery*/
-
-.border {
-    border: 2px solid #709176;
+.social ul li .fa {
+    font-size: 30pt;
+    padding-bottom: 5px;
 }
 
-.hide {
-    display: none;
-}
