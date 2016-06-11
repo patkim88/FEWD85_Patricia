@@ -39,15 +39,11 @@ header {
 
 nav {
     background-color: #704e2e;
-    height: 50px;
     display: block;
     margin-top: 80px;
-
 }
 
 nav ul li {
-    float: left;
-    margin-top: 20px;
     display: inline-block;
 }
 

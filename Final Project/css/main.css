@@ -23,14 +23,11 @@ header {
 
 nav {
     background-color: #704e2e;
-    height: 50px;
     display: block;
     margin-top: 80px;
 }
 
 nav ul li {
-    float: left;
-    margin-top: 20px;
     display: inline-block;
 }
 
@@ -49,9 +46,9 @@ nav ul li a {
 }
 
 .body {
-    height: 500px;
     width: 75%;
     margin: 0 auto;
+    height: 600px;
 }
 
 .body h1 {
@@ -70,16 +67,17 @@ nav ul li a {
     margin-top: 25px;
 }
 
-/*footer .social ul {
-    position: static;
-    bottom: 0; 
-    left: 0.5em; 
-    width: 400px; 
-    padding: 10px;
-}*/
-
 .social ul li .fa {
     font-size: 30pt;
     padding-bottom: 5px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #709176;
+}
+
+footer {
+    padding-bottom: 300px;
 }
 

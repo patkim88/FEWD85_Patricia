@@ -7,7 +7,7 @@
   height: 0;
 }
 
-.clearfix {
+.clear {
     clear: both;
 }
 
@@ -21,6 +21,22 @@
 
 .hide {
     display: none;
+}
+
+.width {
+    width: 100%;
+}
+
+.small {
+    font-size: 12pt;
+}
+
+.center {
+    text-align: center;
+}
+
+.highlight {
+    background-color: #709176;
 }
 
 body {
@@ -39,14 +55,11 @@ header {
 
 nav {
     background-color: #704e2e;
-    height: 50px;
     display: block;
     margin-top: 80px;
 }
 
 nav ul li {
-    float: left;
-    margin-top: 20px;
     display: inline-block;
 }
 
@@ -75,7 +88,7 @@ nav ul li a {
 
 .sidebar {
     width: 25%;
-    padding-right: 2%;
+    padding-right: 10%;
     margin-top: 25px;
 }
 
@@ -88,7 +101,7 @@ aside ul {
 }
 
 aside ul li {
-    margin-bottom: 10%; 
+    padding: 5% 0 5% 0; 
     font-size: 20pt;
 }
 
@@ -97,12 +110,38 @@ aside ul li {
     font-size: 14pt;
 }
 
+.why {
+    display: inline-block;
+    width: 60%;
+}
+
+.sidebar aside ul li:hover {
+    background-color: #709176;
+    cursor: pointer;
+}
+
 table {
-    width: 50%;
+    width: 100%;
 }
 
 table tr {
     height: 60px;
+}
+
+table tr td {
+    padding: 20px 0 20px 0;
+}
+
+table tr:nth-child(odd) {
+    background-color: #cde77f;
+}
+
+tr td:first-child {
+    padding-right: 20%;
+}
+
+tr td:nth-child(2) {
+    text-align: right;
 }
 
 .social ul li .fa {
@@ -114,7 +153,12 @@ table tr {
     padding-top: 2%;
 }
 
+.social ul li a {
+    text-decoration: none;
+    color: #709176;
+}
+
 footer {
-    display: inline-block;
+
 }
 

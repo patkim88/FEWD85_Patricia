@@ -12,19 +12,19 @@
 <body>
     <header>
         <nav>
-        <div class="navbar indent">
+        <div class="navbar indent clearfix">
             <ul>
-                <li><a href="home.html" class="home"><u>Home</u></a></li>
+                <li><a href="index.html" class="home">Home</a></li>
                 <li><a href="about.html" class="about">About Us</a></li>
-                <li><a href="#" class="menu">Menu</a></li>
+                <li><a href="menu.html" class="menu"><u>Menu</u></a></li>
                 <li><a href="#" class="order">Order Online</a></li>
                 <li><a href="contact.html" class="contact">Contact Us</a></li>
             </ul>
-        </div>    
+        </div>  <!--div navbar ends-->  
         </nav>
     </header>
     <div class="container">
-    <div class="body indent clearfix">
+        <div class="body indent clearfix">
         <h1>Menu</h1>
         <div class="sidebar float">
         <aside>
@@ -35,44 +35,61 @@
             <li>BBQ Ribs</li>
             <li>Combos &amp; Family Meals</li>
             <li>Burgers, Sandwiches &amp; Entrees</li>
-            <li>Lunch Specials</li>
             <li>Sides</li>
             <li>Drinks</li>
+            <li>Lunch Specials</li>
         </ul>
         </aside>
-    </div>
+            <div class="social">
+            <ul>
+                <li>
+                    <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+                    <span><a href="https://plus.google.com/113390590579326518411/about" class="order">Google+</a></span>
+                </li>
+                <li>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <span><a href="https://www.facebook.com/Chicken-Lovers-213587648673217/" class="order">Facebook</a></span>
+                </li>
+                <li>
+                    <i class="fa fa-yelp" aria-hidden="true"></i>
+                    <span><a href="http://www.yelp.com/biz/chicken-lovers-bayside" class="order">Yelp</a></span>
+                </li>
+            </ul>
+            </div><!--div social ends-->
+    </div><!--div sidebar ends-->
     <div class="menu">
+        <div class="why"><!--menu display:inline-block hates me so we need this-->
         <div class="appetizers hide">
             <table>
-    <tr>
-        <td>French Fries</td>
-        <td>$3.99</td>
-    </tr>
-    <tr>
-        <td>Hot Wings</td>
-        <td>8 pieces: $6.29<br>14 pieces: $10.99</td>
-    </tr>
-    <tr>
-        <td>Chicken Fingers</td>
-        <td>$5.99</td>
-    </tr>
-    <tr>
-        <td>Onion Rings</td>
-        <td>$3.99</td>
-    </tr>
-    <tr>
-        <td>Mozzarella Sticks</td>
-        <td>$3.99</td>
-    </tr>
-    <tr>
-        <td>Fried Shrimp</td>
-        <td>8 pieces: $6.29<br>14 pieces: $10.99</td>
-    </tr>
-    <tr>
-        <td>Chicken Nuggets</td>
-        <td>14 pieces: $4.99<br>24 pieces: $7.99</td>
-    </tr>
-</table>
+                <tr>
+                    <td>French Fries</td>
+                    <td>$3.99</td>
+                </tr>
+                <tr>
+                    <td>Hot Wings</td>
+                    <td>8 pieces: $6.29<br>14 pieces: $10.99</td>
+                </tr>
+                <tr>
+                    <td>Chicken Fingers</td>
+                    <td>$5.99</td>
+                </tr>
+                <tr>
+                    <td>Onion Rings</td>
+                    <td>$3.99</td>
+                </tr>
+                <tr>
+                    <td>Mozzarella Sticks</td>
+                    <td>$3.99</td>
+                </tr>
+                <tr>
+                    <td>Fried Shrimp</td>
+                    <td>8 pieces: $6.29<br>14 pieces: $10.99</td>
+                </tr>
+                <tr>
+                    <td>Chicken Nuggets</td>
+                    <td>14 pieces: $4.99<br>24 pieces: $7.99</td>
+                </tr>
+            </table>
         </div><!-- Appetizers end -->
         <div class="salads hide">
             <table>
@@ -122,7 +139,7 @@
                 </tr>
             </table>
         </div><!-- chicken ends -->
-        <div class="bbq ribs hide">
+        <div class="bbq-ribs hide">
             <table>
                 <tr>
                     <td>Whole Rack</td>
@@ -168,9 +185,26 @@
                     <td>1/4 Chicken and 1/4 Ribs with Two Large Sides</td>
                     <td>$14.99</td>
                 </tr>
+                <tr>
+                    <td>Whole Chicken<br><p class="small">Served with three large sides</p></td>
+                    <td>$19.99</td>
+                </tr>
+                <tr>
+                    <td>Two Whole Chickens<br><p class="small">Served with four large sides</p></td>
+                    <td>$33.99</td>
+                </tr>
+                <tr>
+                    <td>Whole Chicken and Rack of Ribs<p class="small">Served with four large sides</p></td>
+                    <td>$39.99</td>
+                </tr>
+                <tr>
+                    <td>Rack of Ribs and a Dozen Hot Wings<br><p class="small">Served with two large sides</p></td>
+                    <td>$33.99</td>
+                </tr>
             </table>
         </div><!-- combos ends -->
-        </div class="burgers">
+        <div class="burgers hide">
+            <p class="small center">*Served with lettuce, tomato, onion and pickles</p>
             <table>
                 <tr>
                     <td>Hamburger*</td>
@@ -197,58 +231,167 @@
                     <td>$9.29</td>
                 </tr>
                 <tr>
-                    <td>Bacon Cheeseburger*</td>
-                    <td>$7.29</td>
-                </tr>
-                <tr>
-                    <td>Bacon Cheeseburger with Two Sides*</td>
+                    <td>Double Cheeseburger*</td>
                     <td>$9.29</td>
                 </tr>
                 <tr>
-                    <td>Chicken Fingers</td>
-                    <td>$5.99</td>
+                    <td>Double Cheeseburger with Two Sides*</td>
+                    <td>$11.29</td>
                 </tr>
                 <tr>
-                    <td>Onion Rings</td>
-                    <td>$3.99</td>
+                    <td>Chicken Cutlet Sandwich</td>
+                    <td>$6.29</td>
                 </tr>
                 <tr>
-                    <td>Mozzarella Sticks</td>
-                    <td>$3.99</td>
+                    <td>Chicken Cutlet Sandwich with Two Sides</td>
+                    <td>$8.29</td>
                 </tr>
                 <tr>
-                    <td>Fried Shrimp</td>
-                    <td>8 pieces: $6.29<br>14 pieces: $10.99</td>
+                    <td>Fish Fillet Sandwich</td>
+                    <td>$6.29</td>
                 </tr>
                 <tr>
-                    <td>Chicken Nuggets</td>
-                    <td>14 pieces: $4.99<br>24 pieces: $7.99</td>
+                    <td>Fish Fillet Sandwich with Two Sides</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Grilled Chicken Breast on Pita</td>
+                    <td>$6.29</td>
+                </tr>
+                <tr>
+                    <td>Grilled Chicken Breast with Two Sides</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Grilled Tilapia</td>
+                    <td>1 fillet: $6.29<br>2 fillets: $9.99</td>
+                </tr>
+                <tr>
+                    <td>Grilled Tilapia with Two Sides</td>
+                    <td>1 fillet: $8.29<br>2 fillets: $11.99</td>
                 </tr>
             </table>
-            <p>*Served with lettuce, tomato, onion and pickles</p>
         </div><!-- burgers end -->
-    </div>
-    </div>
+        <div class="sides hide">
+            <table>
+                <tr>
+                    <td>Seasoned Baked Red Potatoes</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Mashed Potatoes</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Macaroni and Cheese</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Yams</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Side Caesar Salad</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Cucumber Tomato Salad</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Yellow Rice</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Buttered Corn Kernels</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Steamed Broccoli</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Side Garden Salad</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+                <tr>
+                    <td>Cucumber Salad</td>
+                    <td>Small: $1.99<br>Large: $3.29</td>
+                </tr>
+            </table>
+        </div><!-- sides end -->
+        <div class="drinks hide">
+            <table>
+                <tr>
+                    <td>Can of Soda</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Snapple</td>
+                    <td>$1.79</td>
+                </tr>
+                <tr>
+                    <td>2 Liter Soda</td>
+                    <td>$3.49</td>
+            </table>
+        </div><!-- drinks end -->
+        <div class="lunch hide">
+            <p class="small center">
+            Lunch served from 11:30am to 3:30pm. Comes with two sides and a drink.
+            </p>
+            <table>
+                <tr>
+                    <td>1/4 Chicken<br></td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>1/2 Chicken</td>
+                    <td>$9.29</td>
+                </tr>
+                <tr>
+                    <td>1/4 Ribs</td>
+                    <td>$9.29</td>
+                </tr>
+                <tr>
+                    <td>Grilled Chicken Breast on Pita</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Chicken Cutlet</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Chicken Fingers</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Cheeseburger</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Hot Chicken Wings</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Fish Fillet</td>
+                    <td>$8.29</td>
+                </tr>
+                <tr>
+                    <td>Grilled Tilapia</td>
+                    <td>$8.29</td>
+                </tr>
+            </table>
+        </div><!-- lunch ends -->
+        </div><!--whytf ends-->
+    </div><!--menu ends-->
+        </div><!--div body ends-->
     <footer>
-    <div class="social indent">
-            <ul>
-                <li>
-                    <i class="fa fa-google-plus-official" aria-hidden="true"></i>
-                    <span>Google+</span>
-                </li>
-                <li>
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    <span>Facebook</span>
-                </li>
-                <li>
-                    <i class="fa fa-yelp" aria-hidden="true"></i>
-                    <span>Yelp</span>
-                </li>
-            </ul>
-    </div>
     </footer>
     </div><!--container ends-->
-    </div>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>
