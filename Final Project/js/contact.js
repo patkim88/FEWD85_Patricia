@@ -7,6 +7,8 @@ $(function(){
     });
 });
 
+// google map API***************************************************
+
 var myCenter=new google.maps.LatLng(40.760575,-73.767127);
 
 function initialize()

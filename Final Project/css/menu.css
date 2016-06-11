@@ -39,6 +39,8 @@
     background-color: #709176;
 }
 
+/*STYLES BEGIN************************/
+
 body {
     font-family: Coming Soon;
     background-color: #e6f8b2;
@@ -51,6 +53,13 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+header p {
+    font-size: 40pt;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }
 
 nav {

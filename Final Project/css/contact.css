@@ -22,6 +22,13 @@ header {
     background-position: center;
 }
 
+header p {
+    font-size: 40pt;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
 nav {
     background-color: #704e2e;
     display: block;

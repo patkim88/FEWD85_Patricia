@@ -17,15 +17,15 @@
     text-decoration: underline;
 }
 
+.indent {
+    padding: 0 50px 0 50px;
+}
+
 /*STYLES BEGIN********************************/
 
 body {
     font-family: Coming Soon;
     background-color: #e6f8b2;
-}
-
-.indent {
-    padding: 0 50px 0 50px;
 }
 
 header {
@@ -35,6 +35,13 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+header p {
+    font-size: 40pt;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }
 
 nav {
@@ -77,7 +84,7 @@ nav ul li a {
     font-size: 16pt;
     color: #709176;
     font-weight: bolder;
-    margin-top: 25px;
+
 }
 
 .body h2 {
@@ -158,5 +165,10 @@ footer {
 .social ul li .fa {
     font-size: 30pt;
     padding-bottom: 5px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #709176;
 }
 
